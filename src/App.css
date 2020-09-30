@@ -2,30 +2,70 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: crimson;
+  padding: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 30px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search-container {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.search-container #searchForm {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container h2{
+  text-align: center;
+}
+
+.search-container #searchForm input{
+  width: 500px;
+  font-size: 18px;
+  padding: 6px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.card-container {
+  padding: 16px;
+  margin: 16px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 6px;
+  -webkit-box-shadow: 6px 6px 6px #bbb;
+  -moz-box-shadow:    6px 6px 6px #bbb;
+}
+
+.card-container .poster{
+  max-width: 200px;
+}
+
+.movie-container .row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.movie-container .card-poster {
+  padding: 16px;
+  margin: 16px;
+}
+
+.movie-container .card-body {
+  padding: 16px;
+  margin: 16px;
 }
 
 @keyframes App-logo-spin {

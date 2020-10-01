@@ -12,9 +12,8 @@ export class Card extends Component {
           <h5 className="card-title">
             {movie.Title} - {movie.Year}
           </h5>
-          <Link className="btn btn-primary" to={'/movie/' + movie.imdbID}>
+          <Link className="link-details" to={'/movie/' + movie.imdbID}>
             Mais detalhes
-            <i className="fas fa-chevron-right" />
           </Link>
         </div>
       </div>

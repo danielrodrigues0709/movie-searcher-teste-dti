@@ -16,11 +16,11 @@ export class Movie extends Component {
     let movieInfo = (
       <div className="movie-container">
         <div className="row">
-          <div className="col-md-4 card-poster">
+          <div className="card-poster">
             <img src={movie.Poster} className="thumbnail" alt="Poster" />
           </div>
-          <div className="col-md-8 card-body">
-            <h2 className="mb-4">{movie.Title}</h2>
+          <div className="card-body">
+            <h2 className="title">{movie.Title}</h2>
             <ul className="list-group">
               <li className="list-group-item">
                 <strong>Gênero:</strong> {movie.Genre}
@@ -47,7 +47,7 @@ export class Movie extends Component {
                 <strong>Resumo:</strong> {movie.Plot}
               </li>
             </ul>
-              <Link to="/" className="btn btn-default text-light">
+              <Link to="/" className="link-back">
                 <strong>Voltar para busca</strong>
               </Link>
           </div>

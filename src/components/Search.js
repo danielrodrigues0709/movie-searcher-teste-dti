@@ -22,7 +22,7 @@ export class Search extends Component {
     render() {
         return (
             <div className="search-container">
-                <h2 className="display">Encontre seu filme favorito ...</h2>
+                <h2 className="display-12">Encontre seu filme favorito ...</h2>
                 <form id="searchForm" onSubmit={this.onSubmit}>
                     <input
                         type="text"
@@ -31,7 +31,7 @@ export class Search extends Component {
                         placeholder="Digite o nome do filme ..."
                         onChange={this.onChange}
                     />
-                    <button type="submit" className="btn"><strong>Buscar</strong></button>
+                    <button type="submit" className="btn btn-primary">Buscar</button>
                 </form>
             </div>
         );

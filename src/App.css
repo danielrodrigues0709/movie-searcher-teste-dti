@@ -35,12 +35,7 @@
   padding: 6px;
 }
 
-.search-container #searchForm .btn{
-  background-color: purple;
-  color: white;
-}
-
-.cards {
+.row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -58,25 +53,19 @@
   max-width: 200px;
 }
 
-.movie-container .row {
-  display: flex;
-  margin: 16px;
-  background-color: rgb(230, 230, 230);
-  border-radius: 6px;
-  -webkit-box-shadow: 6px 6px 6px #bbb;
-  -moz-box-shadow:    6px 6px 6px #bbb;
+.movie-container .row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .movie-container .card-poster {
   padding: 16px;
   margin: 16px;
-  width: 30%;
 }
 
 .movie-container .card-body {
   padding: 16px;
   margin: 16px;
-  width: 70%;
 }
 
 @keyframes App-logo-spin {

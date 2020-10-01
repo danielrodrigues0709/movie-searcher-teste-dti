@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie Searcher
+## movie-searcher-teste-dti
+### Descrição
+Este projeto tem o objetivo de demonstrar minhas habilidades em desenvolviemnto de aplicações Web com utilização de novas APIs.
 
-## Available Scripts
+### Tecnologias utilizadas
+* React.js
+* Redux
+* Git
+* Npm
 
-In the project directory, you can run:
+### Como acessar o projeto publicado
+Para acessar a versão publicada do projeto acesse o link 
 
-### `yarn start`
+### Como clonar o projeto
+Para clonar o projeto, acesse o diretório local de sua preferência e execute o seguinte comando no terminal:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+git clone https://github.com/danielrodrigues0709/movie-searcher-teste-dti.git
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Como rodar o projeto em servidor local
+Após clonar o projeto, acesse o diretório do projeto pelo terminal e execute os comandos abaixo:
 
-### `yarn test`
+npm install
+npm start
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Acesse http://localhost:3000/, que o projeto estará rodando em servidor local.
 
-### `yarn build`
+### Features
+  - [X] Campo para busca de filmes por título
+  - [X] Exibição de 10 resultados de filmes contendo o nome pesquisado no título
+  - [X] Cada card contém o pôster do filme, título do filme e um link para acessar mais detalhes
+  - [X] Tela contendo o pôster do filme selecionado, título, gênero, data de lançamento, classificação (Rated), IMDB Rating, diretor, roteiristas, atores e um resumo.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Decisões de projeto
+Por ser um projeto simples, optei por não utilizar bibliotecas de estilização.
+A estilização ficou concentrada no arquivo App.css.
+Optei dividir os arquivos em pastas de acordo com o que cada um representa no projeto, sendo actions, assets, components, pages e reducers.

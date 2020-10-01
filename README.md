@@ -18,6 +18,7 @@ git clone https://github.com/danielrodrigues0709/movie-searcher-teste-dti.git
 Após clonar o projeto, acesse o diretório do projeto pelo terminal e execute os comandos abaixo:
 
 npm install
+
 npm start
 
 Acesse http://localhost:3000/, que o projeto estará rodando em servidor local.

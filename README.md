@@ -10,7 +10,7 @@ Este projeto tem o objetivo de demonstrar minhas habilidades em desenvolvimento 
 * Npm
 
 ### Como clonar o projeto
-Para clonar o projeto, acesse o diretório local de sua preferência e execute o seguinte comando no terminal:
+Para clonar o projeto, acesse o diretório local de sua preferência pelo terminal e execute o seguinte comando:
 
 git clone https://github.com/danielrodrigues0709/movie-searcher-teste-dti.git
 

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/movie-searcher-teste-dti/static/css/main.ed619487.chunk.css",
+    "main.js": "/movie-searcher-teste-dti/static/js/main.0aed8c46.chunk.js",
+    "main.js.map": "/movie-searcher-teste-dti/static/js/main.0aed8c46.chunk.js.map",
+    "runtime-main.js": "/movie-searcher-teste-dti/static/js/runtime-main.b1c82ccf.js",
+    "runtime-main.js.map": "/movie-searcher-teste-dti/static/js/runtime-main.b1c82ccf.js.map",
+    "static/js/2.2c58d989.chunk.js": "/movie-searcher-teste-dti/static/js/2.2c58d989.chunk.js",
+    "static/js/2.2c58d989.chunk.js.map": "/movie-searcher-teste-dti/static/js/2.2c58d989.chunk.js.map",
+    "index.html": "/movie-searcher-teste-dti/index.html",
+    "precache-manifest.1cbace485cb2164859d104f3073a493c.js": "/movie-searcher-teste-dti/precache-manifest.1cbace485cb2164859d104f3073a493c.js",
+    "service-worker.js": "/movie-searcher-teste-dti/service-worker.js",
+    "static/css/main.ed619487.chunk.css.map": "/movie-searcher-teste-dti/static/css/main.ed619487.chunk.css.map",
+    "static/js/2.2c58d989.chunk.js.LICENSE.txt": "/movie-searcher-teste-dti/static/js/2.2c58d989.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1c82ccf.js",
+    "static/js/2.2c58d989.chunk.js",
+    "static/css/main.ed619487.chunk.css",
+    "static/js/main.0aed8c46.chunk.js"
+  ]
+}

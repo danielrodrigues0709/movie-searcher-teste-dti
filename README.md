@@ -1,7 +1,7 @@
 # Movie Searcher
 ## movie-searcher-teste-dti
 ### Descrição
-Este projeto tem o objetivo de demonstrar minhas habilidades em desenvolviemnto de aplicações Web com utilização de novas APIs.
+Este projeto tem o objetivo de demonstrar minhas habilidades em desenvolvimento de aplicações Web com utilização de novas APIs.
 
 ### Tecnologias utilizadas
 * React.js

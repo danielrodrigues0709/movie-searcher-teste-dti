@@ -9,9 +9,6 @@ Este projeto tem o objetivo de demonstrar minhas habilidades em desenvolviemnto 
 * Git
 * Npm
 
-### Como acessar o projeto publicado
-Para acessar a versão publicada do projeto acesse o link 
-
 ### Como clonar o projeto
 Para clonar o projeto, acesse o diretório local de sua preferência e execute o seguinte comando no terminal:
 
